@@ -24,7 +24,7 @@ my %WriteMakefileArgs = (
     "Data::Stream::Bulk" => 0,
     "Moose" => 0
   },
-  "VERSION" => "v0.0.1",
+  "VERSION" => "v0.0.2",
   "test" => {
     "TESTS" => "t/*.t"
   }

@@ -3,7 +3,7 @@ use warnings;
 package Data::Stream::Bulk::AnyEvent;
 
 # ABSTRACT: AnyEvent-friendly Data::Stream::Bulk::Callback
-our $VERSION = 'v0.0.1'; # VERSION:
+our $VERSION = 'v0.0.2'; # VERSION:
 
 use Moose;
 use AnyEvent;
@@ -89,7 +89,7 @@ Data::Stream::Bulk::AnyEvent - AnyEvent-friendly Data::Stream::Bulk::Callback
 
 =head1 VERSION
 
-version v0.0.1
+version v0.0.2
 
 =head1 SYNOPSIS
 
@@ -172,7 +172,7 @@ You can change this value during lifetime of the object, except for the limitati
 Same as L<Data::Stream::Callback>.
 If called in callback mode, the object goes into blocking mode and callback is canceled.
 
-=head2 C<is_done>
+=head2 C<is_done()>
 
 Same as L<Data::Stream::Callback>.
 
